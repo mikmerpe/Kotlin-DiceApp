@@ -16,6 +16,6 @@ fun main() {
 class Dice (val numSides: Int) {
 
     fun roll(): Int {
-        return (1..numSides).random() // Aqui utilizamos la funcion incluida random() para generar el numero aleatorio a partir del numero de lados del dado.
+        return (1..numSides).random() // Utilizo la funcion incluida random() para generar un numero aleatorio a partir del numero de lados del dado.
     }
 }
